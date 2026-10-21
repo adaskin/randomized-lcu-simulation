@@ -1,0 +1,83 @@
+{
+ "case": {
+  "task": "validate",
+  "hamiltonian": {
+   "model": "A",
+   "n": 5,
+   "seed": 0
+  },
+  "init": {
+   "kind": "neel",
+   "seed": 0
+  },
+  "tau": 100.0,
+  "nt": 41,
+  "cost": {
+   "model": "T",
+   "R": 40.0,
+   "c": 5.0,
+   "kq": 2.0
+  },
+  "plans": [
+   "graph",
+   "oracle",
+   "random",
+   "magnitude",
+   "weights",
+   "variances"
+  ],
+  "nrand": 3,
+  "ms": [
+   2,
+   4,
+   8,
+   16,
+   32,
+   64,
+   128,
+   256
+  ],
+  "sweeps": 4,
+  "drift_k_frac": null,
+  "save_graphs": false,
+  "validate": {
+   "plans": [
+    {
+     "method": "qDRIFT",
+     "ntraj": 100
+    },
+    {
+     "method": "graph",
+     "k_div": 4
+    },
+    {
+     "method": "graph",
+     "k_div": 10
+    },
+    {
+     "method": "graph",
+     "k_div": 30
+    },
+    {
+     "method": "random",
+     "k_div": 10
+    }
+   ],
+   "r": [],
+   "target": [
+    0.03,
+    0.1
+   ],
+   "ntraj": 200
+  },
+  "ms_aux": [
+   8,
+   16,
+   32
+  ],
+  "eps": 0.01,
+  "tag": "A n=5 tau=100",
+  "seed": 1
+ },
+ "seed": 1
+}

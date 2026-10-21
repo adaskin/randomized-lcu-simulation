@@ -1,0 +1,2139 @@
+{
+ "started": "20261021-045409-336732",
+ "seconds": 10948.92584848404,
+ "python": "3.12.12",
+ "numpy": "2.3.4",
+ "machine": "ad",
+ "cases": [
+  {
+   "index": 0,
+   "tag": "A n=5",
+   "task": "study",
+   "seed": 0,
+   "hash": "0dfa49cd09a8",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.300244352,
+    "hours": 1.8844444444444443e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 1,
+   "tag": "A n=10",
+   "task": "study",
+   "seed": 0,
+   "hash": "882f7272f5c3",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.306235898,
+    "hours": 1.5617111111111112e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 2,
+   "tag": "A n=15",
+   "task": "study",
+   "seed": 0,
+   "hash": "cfbbcb37960d",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.5244367139999999,
+    "hours": 0.0001041578,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 3,
+   "tag": "A n=20",
+   "task": "study",
+   "seed": 0,
+   "hash": "8159d4808544",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 12.120566823999999,
+    "hours": 0.005864941244444444,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 4,
+   "tag": "B n=5 L=16 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "709dc2296390",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3000447488,
+    "hours": 5.83111111111111e-09,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 5,
+   "tag": "B n=5 L=16 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "d33b18532950",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3000447488,
+    "hours": 5.83111111111111e-09,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 6,
+   "tag": "B n=5 L=16 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "098a7773f007",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3000447488,
+    "hours": 5.83111111111111e-09,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 7,
+   "tag": "B n=10 L=16 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "6f01e5b12538",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.300753664,
+    "hours": 1.5132444444444442e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 8,
+   "tag": "B n=10 L=16 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "6a27aec35c6e",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.300753664,
+    "hours": 1.5132444444444442e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 9,
+   "tag": "B n=10 L=16 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "feb308e7422f",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.300753664,
+    "hours": 1.5132444444444442e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 10,
+   "tag": "B n=15 L=16 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "f0337b315424",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.32411724799999997,
+    "hours": 4.807111111111111e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 11,
+   "tag": "B n=15 L=16 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "153367ceadfd",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.32411724799999997,
+    "hours": 4.807111111111111e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 12,
+   "tag": "B n=15 L=16 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "a515dbcf1207",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.32411724799999997,
+    "hours": 4.807111111111111e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 13,
+   "tag": "B n=20 L=16 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "4965eccc4a58",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.0717519359999998,
+    "hours": 0.00015379228444444443,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 14,
+   "tag": "B n=20 L=16 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "dcb9b113c642",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.0717519359999998,
+    "hours": 0.00015379228444444443,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 15,
+   "tag": "B n=20 L=16 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "9ba330f0adb8",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.0717519359999998,
+    "hours": 0.00015379228444444443,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 16,
+   "tag": "B n=5 L=32 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "e40ed4340b49",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3001601536,
+    "hours": 1.3937777777777779e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 17,
+   "tag": "B n=5 L=32 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "f38876590512",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3001601536,
+    "hours": 1.3937777777777779e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 18,
+   "tag": "B n=5 L=32 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "9a9727f7eebe",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3001601536,
+    "hours": 1.3937777777777779e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 19,
+   "tag": "B n=10 L=32 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "ff35ce58ad3d",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30150732799999996,
+    "hours": 3.049244444444444e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 20,
+   "tag": "B n=10 L=32 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "bd26f49026c3",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30150732799999996,
+    "hours": 3.049244444444444e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 21,
+   "tag": "B n=10 L=32 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "9c7a15437118",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30150732799999996,
+    "hours": 3.049244444444444e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 22,
+   "tag": "B n=15 L=32 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "a97770a647df",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.348234496,
+    "hours": 9.616497777777777e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 23,
+   "tag": "B n=15 L=32 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "0e59d4964117",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.348234496,
+    "hours": 9.616497777777777e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 24,
+   "tag": "B n=15 L=32 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "ff61fb691e58",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.348234496,
+    "hours": 9.616497777777777e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 25,
+   "tag": "B n=20 L=32 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "93883e6b75a2",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.00030758684444444443,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 26,
+   "tag": "B n=20 L=32 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "9d8560337ce0",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.00030758684444444443,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 27,
+   "tag": "B n=20 L=32 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "b1bb2c756919",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.00030758684444444443,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 28,
+   "tag": "B n=5 L=64 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "4ea5fc736f44",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3006029312,
+    "hours": 3.697777777777778e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 29,
+   "tag": "B n=5 L=64 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "937b42c6f135",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3006029312,
+    "hours": 3.697777777777778e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 30,
+   "tag": "B n=5 L=64 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "44044040ec48",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3006029312,
+    "hours": 3.697777777777778e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 31,
+   "tag": "B n=10 L=64 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "dedba33ee670",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.303014656,
+    "hours": 6.189511111111112e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 32,
+   "tag": "B n=10 L=64 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "7a98456a38f3",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.303014656,
+    "hours": 6.189511111111112e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 33,
+   "tag": "B n=10 L=64 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "9d0e418b1a5f",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.303014656,
+    "hours": 6.189511111111112e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 34,
+   "tag": "B n=15 L=64 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "36dc2440bfaa",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.39646899199999996,
+    "hours": 1.9242097777777777e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 35,
+   "tag": "B n=15 L=64 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "722f7da06027",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.39646899199999996,
+    "hours": 1.9242097777777777e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 36,
+   "tag": "B n=15 L=64 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "2bf181de2150",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.39646899199999996,
+    "hours": 1.9242097777777777e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 37,
+   "tag": "B n=20 L=64 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "445eb1f44784",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 3.3870077439999995,
+    "hours": 0.0006151827911111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 38,
+   "tag": "B n=20 L=64 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "3e90827a83fb",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 3.3870077439999995,
+    "hours": 0.0006151827911111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 39,
+   "tag": "B n=20 L=64 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "a29922af867b",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 3.3870077439999995,
+    "hours": 0.0006151827911111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 40,
+   "tag": "B n=5 L=128 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "a6a44a6b4aba",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3023363584,
+    "hours": 1.1036444444444445e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 41,
+   "tag": "B n=5 L=128 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "ee4b3a3a5a32",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3023363584,
+    "hours": 1.1036444444444445e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 42,
+   "tag": "B n=5 L=128 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "3825b5edaeb5",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3023363584,
+    "hours": 1.1036444444444445e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 43,
+   "tag": "B n=10 L=128 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "8556cb901b40",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.306029312,
+    "hours": 1.274311111111111e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 44,
+   "tag": "B n=10 L=128 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "ceb286d409ff",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.306029312,
+    "hours": 1.274311111111111e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 45,
+   "tag": "B n=10 L=128 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "1431c9cdb9c7",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.306029312,
+    "hours": 1.274311111111111e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 46,
+   "tag": "B n=15 L=128 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "4ac55a9fb03a",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.492937984,
+    "hours": 3.852060444444444e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 47,
+   "tag": "B n=15 L=128 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "dc0e48592974",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.492937984,
+    "hours": 3.852060444444444e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 48,
+   "tag": "B n=15 L=128 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "16499ffb66ae",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.492937984,
+    "hours": 3.852060444444444e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 49,
+   "tag": "B n=20 L=128 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "dff6c3fbd3be",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 6.474015487999999,
+    "hours": 0.001230401991111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 50,
+   "tag": "B n=20 L=128 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "b258debc35dd",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 6.474015487999999,
+    "hours": 0.001230401991111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 51,
+   "tag": "B n=20 L=128 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "b43cddd7a660",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 6.474015487999999,
+    "hours": 0.001230401991111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 52,
+   "tag": "B n=5 L=256 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "830d52c900eb",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3091947008,
+    "hours": 3.6636444444444447e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 53,
+   "tag": "B n=5 L=256 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "044382bbed73",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3091947008,
+    "hours": 3.6636444444444447e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 54,
+   "tag": "B n=5 L=256 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "36d9d4b0d30c",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3091947008,
+    "hours": 3.6636444444444447e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 55,
+   "tag": "B n=10 L=256 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "1cf6b4f2b299",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3138674176,
+    "hours": 2.6942577777777777e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 56,
+   "tag": "B n=10 L=256 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "0b5e747e4710",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3138674176,
+    "hours": 2.6942577777777777e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 57,
+   "tag": "B n=10 L=256 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "5d69e7540131",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3138674176,
+    "hours": 2.6942577777777777e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 58,
+   "tag": "B n=15 L=256 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "c8853a9943b0",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.685875968,
+    "hours": 7.718684444444444e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 59,
+   "tag": "B n=15 L=256 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "a77c890f3b6f",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.685875968,
+    "hours": 7.718684444444444e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 60,
+   "tag": "B n=15 L=256 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "b584a0f6cfb3",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.685875968,
+    "hours": 7.718684444444444e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 61,
+   "tag": "B n=20 L=256 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "21f210995f1c",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 12.648030976,
+    "hours": 0.0024609496177777778,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 62,
+   "tag": "B n=20 L=256 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "d03051df3d1b",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 12.648030976,
+    "hours": 0.0024609496177777778,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 63,
+   "tag": "B n=20 L=256 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "ac295b05b718",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 12.648030976,
+    "hours": 0.0024609496177777778,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 64,
+   "tag": "B n=10 L=512 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "05814dd363d8",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3458227712,
+    "hours": 5.971057777777777e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 65,
+   "tag": "B n=10 L=512 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "ff1885041d42",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3458227712,
+    "hours": 5.971057777777777e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 66,
+   "tag": "B n=10 L=512 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "647b0037902f",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3458227712,
+    "hours": 5.971057777777777e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 67,
+   "tag": "B n=15 L=512 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "7fb294c6f7ad",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.0717519359999998,
+    "hours": 0.00015495623111111108,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 68,
+   "tag": "B n=15 L=512 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "53aa48927069",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.0717519359999998,
+    "hours": 0.00015495623111111108,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 69,
+   "tag": "B n=15 L=512 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "7df7addf3a92",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.0717519359999998,
+    "hours": 0.00015495623111111108,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 70,
+   "tag": "B n=20 L=512 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "764a600424f8",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 24.996061951999998,
+    "hours": 0.004922481777777777,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 71,
+   "tag": "B n=20 L=512 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "27ca5994d8e4",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 24.996061951999998,
+    "hours": 0.004922481777777777,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 72,
+   "tag": "B n=20 L=512 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "fec66f1109bb",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 24.996061951999998,
+    "hours": 0.004922481777777777,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 73,
+   "tag": "B n=10 L=1024 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "a6ee1300f826",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.4639972864,
+    "hours": 1.4272284444444445e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 74,
+   "tag": "B n=10 L=1024 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "f355c9d60ea4",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.4639972864,
+    "hours": 1.4272284444444445e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 75,
+   "tag": "B n=10 L=1024 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "d20c7582b91e",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.4639972864,
+    "hours": 1.4272284444444445e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 76,
+   "tag": "B n=15 L=1024 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "377f6461a746",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.0003122426311111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 77,
+   "tag": "B n=15 L=1024 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "167a38c5eb9b",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.0003122426311111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 78,
+   "tag": "B n=15 L=1024 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "872382fcc705",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.0003122426311111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 79,
+   "tag": "B n=20 L=1024 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "078b1339944c",
+   "status": "done",
+   "seconds": 3822.3264586925507,
+   "estimate": {
+    "mem_gb": 49.69212390399999,
+    "hours": 0.009847293724444444,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 80,
+   "tag": "B n=20 L=1024 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "2e3701ecfc43",
+   "status": "done",
+   "seconds": 3606.289450645447,
+   "estimate": {
+    "mem_gb": 49.69212390399999,
+    "hours": 0.009847293724444444,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 81,
+   "tag": "B n=20 L=1024 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "500d8803e99e",
+   "status": "done",
+   "seconds": 3514.2754621505737,
+   "estimate": {
+    "mem_gb": 49.69212390399999,
+    "hours": 0.009847293724444444,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 82,
+   "tag": "B n=10 L=2048 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "ff1a1b9ab3a6",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.9174015487999998,
+    "hours": 3.786524444444445e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 83,
+   "tag": "B n=10 L=2048 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "81d4073f3950",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.9174015487999998,
+    "hours": 3.786524444444445e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 84,
+   "tag": "B n=10 L=2048 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "b48eec4c12ae",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.9174015487999998,
+    "hours": 3.786524444444445e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 85,
+   "tag": "B n=15 L=2048 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "12b611e92ddd",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 3.3870077439999995,
+    "hours": 0.0006338059377777778,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 86,
+   "tag": "B n=15 L=2048 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "a266af05d83a",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 3.3870077439999995,
+    "hours": 0.0006338059377777778,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 87,
+   "tag": "B n=15 L=2048 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "77f24a05615d",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 3.3870077439999995,
+    "hours": 0.0006338059377777778,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 88,
+   "tag": "B n=10 L=4096 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "1199c2d67032",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 2.6924310015999997,
+    "hours": 0.00011301319111111112,
+    "cores": 2
+   },
+   "error": null
+  },
+  {
+   "index": 89,
+   "tag": "B n=10 L=4096 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "770608402f6d",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 2.6924310015999997,
+    "hours": 0.00011301319111111112,
+    "cores": 2
+   },
+   "error": null
+  },
+  {
+   "index": 90,
+   "tag": "B n=10 L=4096 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "0b6d5ec4606f",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 2.6924310015999997,
+    "hours": 0.00011301319111111112,
+    "cores": 2
+   },
+   "error": null
+  },
+  {
+   "index": 91,
+   "tag": "B n=15 L=4096 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "a3450c1df904",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 6.474015487999999,
+    "hours": 0.0013048945777777777,
+    "cores": 2
+   },
+   "error": null
+  },
+  {
+   "index": 92,
+   "tag": "B n=15 L=4096 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "049d9cc4e16b",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 6.474015487999999,
+    "hours": 0.0013048945777777777,
+    "cores": 2
+   },
+   "error": null
+  },
+  {
+   "index": 93,
+   "tag": "B n=15 L=4096 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "1a515a145135",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 6.474015487999999,
+    "hours": 0.0013048945777777777,
+    "cores": 2
+   },
+   "error": null
+  },
+  {
+   "index": 94,
+   "tag": "B n=10 L=8192 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "97951e41a088",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 2.9239565824,
+    "hours": 0.00037515719111111113,
+    "cores": 4
+   },
+   "error": null
+  },
+  {
+   "index": 95,
+   "tag": "B n=15 L=8192 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "e93affcc7f94",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 12.648030976,
+    "hours": 0.0027589199644444443,
+    "cores": 4
+   },
+   "error": null
+  },
+  {
+   "index": 96,
+   "tag": "B n=15 L=16384 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "2ddf5951d4a7",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 24.996061951999998,
+    "hours": 0.006114363164444444,
+    "cores": 8
+   },
+   "error": null
+  },
+  {
+   "index": 97,
+   "tag": "B n=15 L=32768 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "95a1cc1301b7",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 59.5705486848,
+    "hours": 0.014614819271111112,
+    "cores": 16
+   },
+   "error": null
+  },
+  {
+   "index": 98,
+   "tag": "A n=10 init=prod",
+   "task": "study",
+   "seed": 0,
+   "hash": "0b8b24608789",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.306235898,
+    "hours": 1.5617111111111112e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 99,
+   "tag": "B n=10 L=1024 s=0 init=prod",
+   "task": "study",
+   "seed": 0,
+   "hash": "bfd7a2078b9d",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.4639972864,
+    "hours": 1.4272284444444445e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 100,
+   "tag": "A n=10 init=hf",
+   "task": "study",
+   "seed": 0,
+   "hash": "3b0cc5fbcc49",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.306235898,
+    "hours": 1.5617111111111112e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 101,
+   "tag": "B n=10 L=1024 s=0 init=hf",
+   "task": "study",
+   "seed": 0,
+   "hash": "49876d4ac129",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.4639972864,
+    "hours": 1.4272284444444445e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 102,
+   "tag": "A n=15 init=prod",
+   "task": "study",
+   "seed": 0,
+   "hash": "637ecd0b4ed7",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.5244367139999999,
+    "hours": 0.0001041578,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 103,
+   "tag": "B n=15 L=1024 s=0 init=prod",
+   "task": "study",
+   "seed": 0,
+   "hash": "e3291cb18b6c",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.0003122426311111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 104,
+   "tag": "A n=15 init=hf",
+   "task": "study",
+   "seed": 0,
+   "hash": "e2437617dac5",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.5244367139999999,
+    "hours": 0.0001041578,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 105,
+   "tag": "B n=15 L=1024 s=0 init=hf",
+   "task": "study",
+   "seed": 0,
+   "hash": "502759964542",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.0003122426311111111,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 106,
+   "tag": "A n=10",
+   "task": "planners",
+   "seed": 0,
+   "hash": "3537c146b2f0",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30424662799999996,
+    "hours": 7.808555555555556e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 107,
+   "tag": "A n=10",
+   "task": "pairs",
+   "seed": 0,
+   "hash": "9db5b8b2b4d5",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30424662799999996,
+    "hours": 7.808555555555556e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 108,
+   "tag": "A n=10",
+   "task": "sampling",
+   "seed": 0,
+   "hash": "657fdeb2c3fe",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30424662799999996,
+    "hours": 7.808555555555556e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 109,
+   "tag": "A n=10",
+   "task": "freeblocks",
+   "seed": 0,
+   "hash": "9f0daac9c819",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30424662799999996,
+    "hours": 7.808555555555556e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 110,
+   "tag": "A n=15",
+   "task": "planners",
+   "seed": 0,
+   "hash": "561fc9ffd15e",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.5145814439999999,
+    "hours": 5.20789e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 111,
+   "tag": "A n=15",
+   "task": "pairs",
+   "seed": 0,
+   "hash": "e833ceb9c9be",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.5145814439999999,
+    "hours": 5.20789e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 112,
+   "tag": "A n=15",
+   "task": "sampling",
+   "seed": 0,
+   "hash": "fd4a74fd41c9",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.5145814439999999,
+    "hours": 5.20789e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 113,
+   "tag": "A n=15",
+   "task": "freeblocks",
+   "seed": 0,
+   "hash": "e363c61e5709",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.5145814439999999,
+    "hours": 5.20789e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 114,
+   "tag": "B n=10 L=256 s=0",
+   "task": "planners",
+   "seed": 0,
+   "hash": "00082e753978",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.312058624,
+    "hours": 1.3471288888888888e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 115,
+   "tag": "B n=10 L=256 s=0",
+   "task": "pairs",
+   "seed": 0,
+   "hash": "ade0afccff5d",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.312058624,
+    "hours": 1.3471288888888888e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 116,
+   "tag": "B n=10 L=256 s=0",
+   "task": "sampling",
+   "seed": 0,
+   "hash": "8013c877cc3d",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.312058624,
+    "hours": 1.3471288888888888e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 117,
+   "tag": "B n=10 L=256 s=0",
+   "task": "freeblocks",
+   "seed": 0,
+   "hash": "3a40ca424f8d",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.312058624,
+    "hours": 1.3471288888888888e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 118,
+   "tag": "B n=10 L=1024 s=0",
+   "task": "planners",
+   "seed": 0,
+   "hash": "d0c5658beb9f",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.37717519359999996,
+    "hours": 7.136142222222223e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 119,
+   "tag": "B n=10 L=1024 s=0",
+   "task": "sampling",
+   "seed": 0,
+   "hash": "1b55fc799b9a",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.37717519359999996,
+    "hours": 7.136142222222223e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 120,
+   "tag": "B n=10 L=1024 s=0",
+   "task": "freeblocks",
+   "seed": 0,
+   "hash": "e655626a50ba",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.37717519359999996,
+    "hours": 7.136142222222223e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 121,
+   "tag": "B n=15 L=256 s=0",
+   "task": "planners",
+   "seed": 0,
+   "hash": "7928ff208dc7",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.685875968,
+    "hours": 3.859342222222222e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 122,
+   "tag": "B n=15 L=256 s=0",
+   "task": "pairs",
+   "seed": 0,
+   "hash": "2fbc26aaaa44",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.685875968,
+    "hours": 3.859342222222222e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 123,
+   "tag": "B n=15 L=256 s=0",
+   "task": "sampling",
+   "seed": 0,
+   "hash": "ddb0e0fec1bf",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.685875968,
+    "hours": 3.859342222222222e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 124,
+   "tag": "B n=15 L=256 s=0",
+   "task": "freeblocks",
+   "seed": 0,
+   "hash": "bc9c081bff34",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.685875968,
+    "hours": 3.859342222222222e-05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 125,
+   "tag": "B n=15 L=1024 s=0",
+   "task": "planners",
+   "seed": 0,
+   "hash": "355192e2a959",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.00015612131555555554,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 126,
+   "tag": "B n=15 L=1024 s=0",
+   "task": "sampling",
+   "seed": 0,
+   "hash": "091478bf3241",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.00015612131555555554,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 127,
+   "tag": "B n=15 L=1024 s=0",
+   "task": "freeblocks",
+   "seed": 0,
+   "hash": "12f1a745b97a",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.8435038719999999,
+    "hours": 0.00015612131555555554,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 128,
+   "tag": "B n=15 L=4096 s=0",
+   "task": "sampling",
+   "seed": 0,
+   "hash": "4bb8eb0d2aae",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 6.474015487999999,
+    "hours": 0.0006524472888888888,
+    "cores": 2
+   },
+   "error": null
+  },
+  {
+   "index": 129,
+   "tag": "B n=15 L=4096 s=0",
+   "task": "freeblocks",
+   "seed": 0,
+   "hash": "9c0f104fd3e1",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 6.474015487999999,
+    "hours": 0.0006524472888888888,
+    "cores": 2
+   },
+   "error": null
+  },
+  {
+   "index": 130,
+   "tag": "A n=5 tau=8",
+   "task": "validate",
+   "seed": 1,
+   "hash": "e6a10c2ee187",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30035839999999997,
+    "hours": 0.0015625,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 131,
+   "tag": "B n=5 L=256 s=0 tau=8",
+   "task": "validate",
+   "seed": 1,
+   "hash": "9cd470b3199b",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30063488,
+    "hours": 0.0015625,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 132,
+   "tag": "A n=10 tau=8",
+   "task": "validate",
+   "seed": 1,
+   "hash": "25d3b80aaa02",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3161792,
+    "hours": 0.05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 133,
+   "tag": "B n=10 L=256 s=0 tau=8",
+   "task": "validate",
+   "seed": 1,
+   "hash": "a7d11c875006",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.32031615999999996,
+    "hours": 0.05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 134,
+   "tag": "A n=15 tau=8",
+   "task": "validate",
+   "seed": 1,
+   "hash": "d04e00f4840b",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.0667712,
+    "hours": 1.6,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 135,
+   "tag": "B n=15 L=256 s=0 tau=8",
+   "task": "validate",
+   "seed": 1,
+   "hash": "64e934111d60",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.95011712,
+    "hours": 1.6,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 136,
+   "tag": "A n=5 tau=100",
+   "task": "validate",
+   "seed": 1,
+   "hash": "167456874b33",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30035839999999997,
+    "hours": 0.0015625,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 137,
+   "tag": "B n=5 L=256 s=0 tau=100",
+   "task": "validate",
+   "seed": 1,
+   "hash": "88b051c6b311",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.30063488,
+    "hours": 0.0015625,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 138,
+   "tag": "A n=10 tau=100",
+   "task": "validate",
+   "seed": 1,
+   "hash": "e6f157ed8c28",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.3161792,
+    "hours": 0.05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 139,
+   "tag": "B n=10 L=256 s=0 tau=100",
+   "task": "validate",
+   "seed": 1,
+   "hash": "cf486ab5a536",
+   "status": "cached",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.32031615999999996,
+    "hours": 0.05,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 140,
+   "tag": "A n=15 tau=100",
+   "task": "validate",
+   "seed": 1,
+   "hash": "05d16ff13c56",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 1.0667712,
+    "hours": 1.6,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 141,
+   "tag": "B n=15 L=256 s=0 tau=100",
+   "task": "validate",
+   "seed": 1,
+   "hash": "3810fdef2d2a",
+   "status": "skipped",
+   "seconds": 0.0,
+   "estimate": {
+    "mem_gb": 0.95011712,
+    "hours": 1.6,
+    "cores": 1
+   },
+   "error": null
+  }
+ ]
+}

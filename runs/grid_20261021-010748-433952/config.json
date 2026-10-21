@@ -1,0 +1,2503 @@
+{
+ "name": "grid",
+ "seed": 0,
+ "base": {
+  "tau": 100.0,
+  "nt": 11,
+  "nrand": 3,
+  "ms": [
+   2,
+   4,
+   8,
+   16,
+   32,
+   64,
+   128,
+   256
+  ],
+  "sweeps": 4,
+  "plans": [
+   "graph",
+   "oracle",
+   "random",
+   "magnitude",
+   "weights",
+   "variances"
+  ]
+ },
+ "cases": [
+  {
+   "tag": "A n=5",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 5,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "A n=10",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 10,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "A n=15",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 15,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "A n=20",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 20,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=16 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 16,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=16 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 16,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=16 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 16,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=16 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 16,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=16 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 16,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=16 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 16,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=16 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 16,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=16 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 16,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=16 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 16,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=16 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 16,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=16 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 16,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=16 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 16,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=32 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 32,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=32 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 32,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=32 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 32,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=32 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 32,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=32 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 32,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=32 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 32,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=32 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 32,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=32 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 32,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=32 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 32,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=32 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 32,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=32 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 32,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=32 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 32,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=64 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 64,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=64 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 64,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=64 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 64,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=64 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 64,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=64 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 64,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=64 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 64,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=64 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 64,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=64 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 64,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=64 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 64,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=64 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 64,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=64 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 64,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=64 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 64,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=128 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 128,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=128 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 128,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=128 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 128,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=128 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 128,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=128 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 128,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=128 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 128,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=128 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 128,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=128 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 128,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=128 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 128,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=128 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 128,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=128 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 128,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=128 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 128,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 256,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=256 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 256,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=5 L=256 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 256,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 256,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=256 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 256,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=256 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 256,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 256,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=256 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 256,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=256 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 256,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 256,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=256 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 256,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=256 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 256,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=512 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 512,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=512 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 512,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=512 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 512,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=512 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 512,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=512 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 512,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=512 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 512,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=512 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 512,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=512 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 512,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=512 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 512,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=1024 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 1024,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=1024 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 1024,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=1024 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 1024,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=1024 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 1024,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=1024 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 1024,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=1024 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 1024,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=1024 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 1024,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=1024 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 1024,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=20 L=1024 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 20,
+    "L": 1024,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=2048 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 2048,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=2048 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 2048,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=2048 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 2048,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=2048 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 2048,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=2048 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 2048,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=2048 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 2048,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=4096 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 4096,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=4096 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 4096,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=4096 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 4096,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=4096 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 4096,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=4096 s=1",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 4096,
+    "seed": 1
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=4096 s=2",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 4096,
+    "seed": 2
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=8192 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 8192,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   }
+  },
+  {
+   "tag": "B n=15 L=8192 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 8192,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   }
+  },
+  {
+   "tag": "B n=15 L=16384 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 16384,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   }
+  },
+  {
+   "tag": "B n=15 L=32768 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 32768,
+    "seed": 0
+   },
+   "init": {
+    "kind": "neel",
+    "seed": 0
+   }
+  },
+  {
+   "tag": "A n=10 init=prod",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 10,
+    "seed": 0
+   },
+   "init": {
+    "kind": "prod",
+    "seed": 5
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=1024 s=0 init=prod",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 1024,
+    "seed": 0
+   },
+   "init": {
+    "kind": "prod",
+    "seed": 5
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "A n=10 init=hf",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 10,
+    "seed": 0
+   },
+   "init": {
+    "kind": "hf",
+    "seed": 5
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=10 L=1024 s=0 init=hf",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 1024,
+    "seed": 0
+   },
+   "init": {
+    "kind": "hf",
+    "seed": 5
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "A n=15 init=prod",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 15,
+    "seed": 0
+   },
+   "init": {
+    "kind": "prod",
+    "seed": 5
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=1024 s=0 init=prod",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 1024,
+    "seed": 0
+   },
+   "init": {
+    "kind": "prod",
+    "seed": 5
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "A n=15 init=hf",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 15,
+    "seed": 0
+   },
+   "init": {
+    "kind": "hf",
+    "seed": 5
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "tag": "B n=15 L=1024 s=0 init=hf",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 1024,
+    "seed": 0
+   },
+   "init": {
+    "kind": "hf",
+    "seed": 5
+   },
+   "drift_k_frac": 0.1
+  },
+  {
+   "task": "planners",
+   "tag": "A n=10",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 10,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "pairs",
+   "tag": "A n=10",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 10,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "sampling",
+   "tag": "A n=10",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 10,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "freeblocks",
+   "tag": "A n=10",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 10,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "planners",
+   "tag": "A n=15",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 15,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "pairs",
+   "tag": "A n=15",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 15,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "sampling",
+   "tag": "A n=15",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 15,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "freeblocks",
+   "tag": "A n=15",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "A",
+    "n": 15,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "planners",
+   "tag": "B n=10 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 256,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "pairs",
+   "tag": "B n=10 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 256,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "sampling",
+   "tag": "B n=10 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 256,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "freeblocks",
+   "tag": "B n=10 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 256,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "planners",
+   "tag": "B n=10 L=1024 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 1024,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "sampling",
+   "tag": "B n=10 L=1024 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 1024,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "freeblocks",
+   "tag": "B n=10 L=1024 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 1024,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "planners",
+   "tag": "B n=15 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 256,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "pairs",
+   "tag": "B n=15 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 256,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "sampling",
+   "tag": "B n=15 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 256,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "freeblocks",
+   "tag": "B n=15 L=256 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 256,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "planners",
+   "tag": "B n=15 L=1024 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 1024,
+    "seed": 0
+   },
+   "nt": 11
+  },
+  {
+   "task": "sampling",
+   "tag": "B n=15 L=1024 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 1024,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "freeblocks",
+   "tag": "B n=15 L=1024 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 1024,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "sampling",
+   "tag": "B n=15 L=4096 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 4096,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "freeblocks",
+   "tag": "B n=15 L=4096 s=0",
+   "seed": 0,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 4096,
+    "seed": 0
+   },
+   "nt": 11,
+   "ms_aux": [
+    4,
+    8,
+    16,
+    32,
+    64
+   ]
+  },
+  {
+   "task": "validate",
+   "tag": "A n=5 tau=8",
+   "seed": 1,
+   "tau": 8.0,
+   "nt": 17,
+   "hamiltonian": {
+    "model": "A",
+    "n": 5,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 200
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "B n=5 L=256 s=0 tau=8",
+   "seed": 1,
+   "tau": 8.0,
+   "nt": 17,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 256,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 200
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "A n=10 tau=8",
+   "seed": 1,
+   "tau": 8.0,
+   "nt": 17,
+   "hamiltonian": {
+    "model": "A",
+    "n": 10,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 200
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "B n=10 L=256 s=0 tau=8",
+   "seed": 1,
+   "tau": 8.0,
+   "nt": 17,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 256,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 200
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "A n=15 tau=8",
+   "seed": 1,
+   "tau": 8.0,
+   "nt": 17,
+   "hamiltonian": {
+    "model": "A",
+    "n": 15,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 200
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "B n=15 L=256 s=0 tau=8",
+   "seed": 1,
+   "tau": 8.0,
+   "nt": 17,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 256,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 200
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "A n=5 tau=100",
+   "seed": 1,
+   "tau": 100.0,
+   "nt": 41,
+   "hamiltonian": {
+    "model": "A",
+    "n": 5,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 100
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "B n=5 L=256 s=0 tau=100",
+   "seed": 1,
+   "tau": 100.0,
+   "nt": 41,
+   "hamiltonian": {
+    "model": "B",
+    "n": 5,
+    "L": 256,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 100
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "A n=10 tau=100",
+   "seed": 1,
+   "tau": 100.0,
+   "nt": 41,
+   "hamiltonian": {
+    "model": "A",
+    "n": 10,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 100
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "B n=10 L=256 s=0 tau=100",
+   "seed": 1,
+   "tau": 100.0,
+   "nt": 41,
+   "hamiltonian": {
+    "model": "B",
+    "n": 10,
+    "L": 256,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 100
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "A n=15 tau=100",
+   "seed": 1,
+   "tau": 100.0,
+   "nt": 41,
+   "hamiltonian": {
+    "model": "A",
+    "n": 15,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 100
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  },
+  {
+   "task": "validate",
+   "tag": "B n=15 L=256 s=0 tau=100",
+   "seed": 1,
+   "tau": 100.0,
+   "nt": 41,
+   "hamiltonian": {
+    "model": "B",
+    "n": 15,
+    "L": 256,
+    "seed": 0
+   },
+   "validate": {
+    "plans": [
+     {
+      "method": "qDRIFT",
+      "ntraj": 100
+     },
+     {
+      "method": "graph",
+      "k_div": 4
+     },
+     {
+      "method": "graph",
+      "k_div": 10
+     },
+     {
+      "method": "graph",
+      "k_div": 30
+     },
+     {
+      "method": "random",
+      "k_div": 10
+     }
+    ],
+    "r": [],
+    "target": [
+     0.03,
+     0.1
+    ],
+    "ntraj": 200
+   }
+  }
+ ]
+}

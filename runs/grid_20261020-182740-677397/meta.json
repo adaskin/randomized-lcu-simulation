@@ -1,0 +1,339 @@
+{
+ "started": "20261020-182740-677397",
+ "seconds": 24.288072109222412,
+ "python": "3.13.16",
+ "numpy": "2.5.3",
+ "machine": "vm",
+ "cases": [
+  {
+   "index": 0,
+   "tag": "A n=5",
+   "task": "study",
+   "seed": 0,
+   "hash": "0dfa49cd09a8",
+   "status": "done",
+   "seconds": 2.0493223667144775,
+   "estimate": {
+    "mem_gb": 0.300244352,
+    "hours": 1.8844444444444443e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 1,
+   "tag": "A n=10",
+   "task": "study",
+   "seed": 0,
+   "hash": "882f7272f5c3",
+   "status": "done",
+   "seconds": 2.0100345611572266,
+   "estimate": {
+    "mem_gb": 0.306235898,
+    "hours": 1.5617111111111112e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 4,
+   "tag": "B n=5 L=16 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "709dc2296390",
+   "status": "done",
+   "seconds": 2.0436947345733643,
+   "estimate": {
+    "mem_gb": 0.3000447488,
+    "hours": 5.83111111111111e-09,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 5,
+   "tag": "B n=5 L=16 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "d33b18532950",
+   "status": "done",
+   "seconds": 2.0016019344329834,
+   "estimate": {
+    "mem_gb": 0.3000447488,
+    "hours": 5.83111111111111e-09,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 6,
+   "tag": "B n=5 L=16 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "098a7773f007",
+   "status": "done",
+   "seconds": 2.016493558883667,
+   "estimate": {
+    "mem_gb": 0.3000447488,
+    "hours": 5.83111111111111e-09,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 7,
+   "tag": "B n=10 L=16 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "6f01e5b12538",
+   "status": "done",
+   "seconds": 2.0153260231018066,
+   "estimate": {
+    "mem_gb": 0.300753664,
+    "hours": 1.5132444444444442e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 8,
+   "tag": "B n=10 L=16 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "6a27aec35c6e",
+   "status": "done",
+   "seconds": 2.0223143100738525,
+   "estimate": {
+    "mem_gb": 0.300753664,
+    "hours": 1.5132444444444442e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 9,
+   "tag": "B n=10 L=16 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "feb308e7422f",
+   "status": "done",
+   "seconds": 2.028367519378662,
+   "estimate": {
+    "mem_gb": 0.300753664,
+    "hours": 1.5132444444444442e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 16,
+   "tag": "B n=5 L=32 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "e40ed4340b49",
+   "status": "done",
+   "seconds": 2.006636619567871,
+   "estimate": {
+    "mem_gb": 0.3001601536,
+    "hours": 1.3937777777777779e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 17,
+   "tag": "B n=5 L=32 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "f38876590512",
+   "status": "done",
+   "seconds": 2.020066261291504,
+   "estimate": {
+    "mem_gb": 0.3001601536,
+    "hours": 1.3937777777777779e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 18,
+   "tag": "B n=5 L=32 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "9a9727f7eebe",
+   "status": "done",
+   "seconds": 2.0344483852386475,
+   "estimate": {
+    "mem_gb": 0.3001601536,
+    "hours": 1.3937777777777779e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 19,
+   "tag": "B n=10 L=32 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "ff35ce58ad3d",
+   "status": "done",
+   "seconds": 2.0163869857788086,
+   "estimate": {
+    "mem_gb": 0.30150732799999996,
+    "hours": 3.049244444444444e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 20,
+   "tag": "B n=10 L=32 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "bd26f49026c3",
+   "status": "done",
+   "seconds": 2.016831874847412,
+   "estimate": {
+    "mem_gb": 0.30150732799999996,
+    "hours": 3.049244444444444e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 21,
+   "tag": "B n=10 L=32 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "9c7a15437118",
+   "status": "done",
+   "seconds": 2.0056650638580322,
+   "estimate": {
+    "mem_gb": 0.30150732799999996,
+    "hours": 3.049244444444444e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 28,
+   "tag": "B n=5 L=64 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "4ea5fc736f44",
+   "status": "done",
+   "seconds": 2.006030559539795,
+   "estimate": {
+    "mem_gb": 0.3006029312,
+    "hours": 3.697777777777778e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 29,
+   "tag": "B n=5 L=64 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "937b42c6f135",
+   "status": "done",
+   "seconds": 2.021439552307129,
+   "estimate": {
+    "mem_gb": 0.3006029312,
+    "hours": 3.697777777777778e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 30,
+   "tag": "B n=5 L=64 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "44044040ec48",
+   "status": "done",
+   "seconds": 2.0370287895202637,
+   "estimate": {
+    "mem_gb": 0.3006029312,
+    "hours": 3.697777777777778e-08,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 31,
+   "tag": "B n=10 L=64 s=0",
+   "task": "study",
+   "seed": 0,
+   "hash": "dedba33ee670",
+   "status": "done",
+   "seconds": 2.0113327503204346,
+   "estimate": {
+    "mem_gb": 0.303014656,
+    "hours": 6.189511111111112e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 32,
+   "tag": "B n=10 L=64 s=1",
+   "task": "study",
+   "seed": 0,
+   "hash": "7a98456a38f3",
+   "status": "done",
+   "seconds": 2.007408380508423,
+   "estimate": {
+    "mem_gb": 0.303014656,
+    "hours": 6.189511111111112e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 33,
+   "tag": "B n=10 L=64 s=2",
+   "task": "study",
+   "seed": 0,
+   "hash": "9d0e418b1a5f",
+   "status": "done",
+   "seconds": 2.0122756958007812,
+   "estimate": {
+    "mem_gb": 0.303014656,
+    "hours": 6.189511111111112e-07,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 98,
+   "tag": "A n=10 init=prod",
+   "task": "study",
+   "seed": 0,
+   "hash": "0b8b24608789",
+   "status": "done",
+   "seconds": 2.0128872394561768,
+   "estimate": {
+    "mem_gb": 0.306235898,
+    "hours": 1.5617111111111112e-06,
+    "cores": 1
+   },
+   "error": null
+  },
+  {
+   "index": 100,
+   "tag": "A n=10 init=hf",
+   "task": "study",
+   "seed": 0,
+   "hash": "3b0cc5fbcc49",
+   "status": "done",
+   "seconds": 2.0158135890960693,
+   "estimate": {
+    "mem_gb": 0.306235898,
+    "hours": 1.5617111111111112e-06,
+    "cores": 1
+   },
+   "error": null
+  }
+ ]
+}
